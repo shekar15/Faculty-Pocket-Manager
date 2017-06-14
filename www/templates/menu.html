@@ -1,0 +1,55 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon-round" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+ 
+   
+   <ion-side-menu side="left">
+   
+    <ion-content id="side_menu" class="padding">
+   <div class="list">
+	    <a class="item item-thumbnail-left" href="#">
+	      <img src="img/user_1.png">
+	      <h2>Tom cruise</h2>
+	      <p>tomcruise@gmail.com</p>
+        </a>
+        
+        <a class="item item-icon-left" menu-close href="#/app/attendance">
+        <i class="icon ion-pie-graph"></i>
+        Attendance
+        </a>
+
+       <a class="item item-icon-left item-icon-right" menu-close href="#">
+       <i class="icon ion-chatbubble-working"></i>
+        Marks Entry
+        <i class="icon ion-ios-telephone-outline"></i>
+      </a>
+
+  <a class="item item-icon-left" href="#">
+    <i class="icon ion-mic-a"></i>
+    QR Reader
+    <span class="item-note">
+      Grammy
+    </span>
+  </a>
+
+  <a class="item item-icon-left" href="#">
+    <i class="icon ion-person-stalker"></i>
+    Friends
+    <span class="badge badge-assertive">0</span>
+  </a>
+        
+    </div> 
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
